@@ -1,0 +1,87 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyDay Web</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="page3.css">
+</head>
+<body>
+    <div class="menu">
+        <h1 class="my">MyDay Web</h1><hr>
+        <ul>
+            <li >
+<a  href="page1.html"><i class="fa-solid fa-house"></i>
+    <p>My Day</p></a>
+
+        </li>
+              <li >
+<a href="page2.html"><i class="fa-regular fa-star"></i>
+    <p>Important</p></a>
+
+        </li>
+         <li >
+<a class="h" href="page3.html"><i class="fa-regular fa-calendar"></i>
+    <p>Planned</p></a>
+
+        </li>
+       <li> <a href="All.html">
+<i class="fa-regular fa-square-check"></i>
+    <p>All Tasks</p>
+</a>
+        </li>
+    </ul>
+
+    </div>
+    <div>
+    <div class="content">
+       <div class="all"> 
+
+<div class="cont">
+    <button>
+<i width="30px" height="30px" class="fa-regular fa-calendar" style="color: #fafafa;"></i>
+    </button><div><h3>Planned</h3><p id="total"></p></div>
+    </div>
+    <div class="nav">
+<button>
+    <a href="add.html" class="add">
+        <i style="color: #fff;" class="fa-solid fa-plus"></i>Add Task
+    </a>
+</button>
+    </div>
+ </div> 
+    </div>
+
+
+<div id="overdue">
+    <h5>overdue<span id="ov_num"></span></h5>
+        <ul id="ov_fin">
+           
+            </ul>
+    </div>
+
+<div id="today">
+    <h5>today<span id="tod_num"></span></h5>
+        <ul id="tod_fin">
+           
+            </ul>
+    </div>
+
+<div id="tomorrow">
+    <h5>tomorrow<span id="to_num"></span></h5>
+        <ul id="to_fin">
+           
+            </ul>
+    </div>
+<div  id="this_week">
+    <h5>this_week<span id="th_num"></span></h5>
+        <ul id="th_fin">
+           
+            </ul>
+    </div>
+</div>
+    <script src="page3.js"></script>
+    
+</body>
+</html>

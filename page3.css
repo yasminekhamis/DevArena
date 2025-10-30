@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: "Arimo";
+}
+body{
+    background-color: #FFFFFF;
+    display: flex;
+}
+.menu{
+    background-color:#FAFAFA ;
+    width: 240px;
+    height: 100vh;
+    padding: 10px;
+    border-right: 0.8px solid #D4D4D8;
+    
+}
+.my{
+    width: 175;
+height: 45;
+    font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+leading-trim: none;
+line-height: 45px;
+letter-spacing: 0px;}
+
+ul{
+    list-style: none;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 8px 8px 8px;
+    margin: 5px 0;
+    border-radius: 8px;
+   display: flex;
+    align-items: center;  
+    gap: 10px;
+} .h{
+background-color: #F5F5F5;
+}.content{
+ width: 100%;
+ margin: 10px;
+ text-align: center;
+ justify-content: space-between;
+}
+.all{
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.cont{
+padding: 10px;
+align-items: center;
+ display: flex;
+gap: 12px;
+width: 890px;
+margin-top: 15px;
+}
+.cont button{ 
+ color: #FFFFFF;
+    width: 36px;
+height: 36px;
+background: linear-gradient(180deg, #0588F0 0%, #0D74CE 100%);
+
+
+
+}button{
+    
+    background-color: #22C55E;
+    border: none;
+    width: 110.3px;
+height: 36px;
+border-radius: 6px;
+
+}.add{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+#ov_fin,#tod_fin,#to_fin,#th_fin{
+    padding: 10px;
+    display: block;
+    align-items: center;
+
+    margin: 10px 0;
+}
+#ov_fin li,#tod_fin li,#to_fin li,#th_fin li{
+    justify-content: space-between;
+         display: flex;
+  margin-bottom: 10px;   
+ border: 0.8px solid #E5E5E5;
+  border-radius: 10px;
+  height: 60px;
+  
+}
+.fin{ 
+    padding: 10px;
+align-items: center;
+ display: flex;
+gap: 12px;
+height: 80%;
+width: 1000px;
+}
+.pri{
+    background-color: #ffffff;
+    width: 16px;
+height: 16px;
+border-radius: 4px;
+border: 0.8px solid #E5E5E5
+
+}.star{
+    width: 20px;
+height: 20px;
+background-color: white;
+border: none;
+cursor: pointer;
+font-size: 20px;
+text-align: right;
+margin-top: 20px;
+margin-right: 20px;
+}
+.fin #work{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    
+
+}#work i{
+    width: 3px;
+    height: 3px;
+    margin-right: 15px;
+    
+}#work #t{
+    color: #797878;
+} h5{
+    margin: 20px;
+    font-size: larger;
+}
+#total{
+    color: #797878;
+    font-size:12px;
+}
+#ov_num,#tod_num,#to_num,#th_num{
+background-color: #c7c5c5;
+    font-size:18px;
+    gap: 6px;
+     border-radius: 4px;
+     margin-left: 6px;
+     text-align: center;
+}

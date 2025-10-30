@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add new task </title>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <h2>Add New Task</h2>
+    <p class="fi">create a new task with details like priority,tags,and due date</p><br>
+    <div class="all">
+        <form>
+            <label for="title">Title</label><br>
+            <input type="text" id="title" placeholder="What do you want to do?" required>
+<p class="par">Press enter to add, Shift+Enter to add and stay open</p><br>
+<br><label for="des">Description</label><br>
+<textarea id="des" placeholder="Add more details..."></textarea><br>
+<br><label for="due">Due Date</label><br>
+<input id="due" type="date" placeholder="mm/dd/yyyy">
+<p>Pick a date or choose Today /Tomorrow</p><br>
+<h3>Priority</h3>
+<div class="pr"><br>
+    <button onclick="selectpr(this,'low')" >Low</button>
+    <button onclick="selectpr(this,'medium')">Medium</button>
+    <button onclick="selectpr(this,'high')">High</button>
+</div><br>
+<label for="tag">Tags</label><br>
+<input id="tag" placeholder="Add tags...">
+<p>Press Enter to add tag.max 6 tags.</p><br>
+<label for="st">Status</label><br>
+<select wigth="60%"id="st" >
+    <option value="to do">To Do </option>
+    <option value="in progress"> In Progress</option>
+    <option value="completed"> Completed</option>
+</select><br><br>
+<hr><br>
+        </form >
+        <button  id="sub"><a href="page1.html" >Add Task</a>
+            <a href="page2.html"></a>
+            <a href="page3.html"></a>
+        </button>
+        <button     id="rt" ><a href="page1.html">Cancel</a>
+            <a href="page2.html"></a>
+            <a href="page3.html"></a> 
+        </button>
+    </div>
+   <script src="add.js" ></script>
+   
+</body>
+</html>

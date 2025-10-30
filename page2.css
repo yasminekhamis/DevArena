@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: black;
+    font-family: "Arimo";
+}
+body{
+    background-color: #FFFFFF;
+    display: flex;
+}
+.menu{
+    background-color:#FAFAFA ;
+    width: 240px;
+    height: 100vh;
+    padding: 10px;
+    border-right: 0.8px solid #D4D4D8;
+    
+}
+.my{
+    width: 175;
+height: 45;
+    font-family: Inter;
+font-weight: 700;
+font-style: Bold;
+font-size: 30px;
+leading-trim: none;
+line-height: 45px;
+letter-spacing: 0px;}
+
+ul{
+    list-style: none;
+}
+ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 8px 8px 8px;
+    margin: 5px 0;
+    border-radius: 8px;
+   display: flex;
+    align-items: center;  
+    gap: 10px;
+} .h{
+background-color: #F5F5F5;
+}.content{
+ width: 100%;
+ margin: 10px;
+}
+.all{
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+.cont{
+padding: 10px;
+align-items: center;
+ display: flex;
+gap: 12px;
+}
+.cont button{ 
+ color: #FFFFFF;
+    width: 36px;
+height: 36px;
+background: linear-gradient(135deg, #FFB900 0%, #FE9A00 100%);}
+#process{
+    font-size: 12px;
+color: #666666;
+}
+
+button{
+    
+    background-color: #22C55E;
+    border: none;
+    width: 110.3px;
+height: 36px;
+border-radius: 6px;
+
+}.add{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}#two{
+    width: 1100px;
+ margin: 10px;
+ border: 0.8px solid  #dfdcdc;
+ border-radius: 10px;
+}
+#comp {
+ padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px 0;
+    height: 24px;
+    width: 95%;
+}
+ #to{
+    color: #7a7a7a;
+ }#fin{
+    padding: 10px;
+    display: block;
+    align-items: center;
+
+    margin: 10px 0;
+}
+#fin li{
+    justify-content: space-between;
+         display: flex;
+  margin-bottom: 10px;   
+ border: 0.8px solid #E5E5E5;
+  border-radius: 10px;
+}
+.fin{ 
+    padding: 10px;
+align-items: center;
+ display: flex;
+gap: 12px;
+height: 100%;
+width: 1000px;
+}
+.pri{
+    background-color: #ffffff;
+    width: 16px;
+height: 16px;
+border-radius: 4px;
+border: 0.8px solid #E5E5E5
+
+}.star{
+    width: 20px;
+height: 20px;
+background-color: white;
+border: none;
+cursor: pointer;
+font-size: 20px;
+text-align: right;
+margin-top: 20px;
+margin-right: 20px;
+}
+.fin #work{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+
+}#work i{
+    width: 3px;
+    height: 3px;
+    margin-right: 15px;
+    
+}#work #t{
+    color: #797878;
+}
